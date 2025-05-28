@@ -1,17 +1,13 @@
 {
-  "name": "rabbit_alert",
+  "name": "puppeteer-telegram-crawler",
   "version": "1.0.0",
-  "main": "background.js",
+  "description": "Puppeteer를 이용한 텔레그램 알림 크롤러",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "delay": "^6.0.0",
-    "node-telegram-bot-api": "^0.66.0",
-    "puppeteer": "^24.1.0"
+    "axios": "^1.6.7",
+    "puppeteer-core": "^21.3.8"
   }
 }
